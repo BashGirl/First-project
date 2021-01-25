@@ -34,6 +34,7 @@ const cookIt = function(e) {
         let $leavened = $button.parents('.leavened');
         let $icon = $leavened.find('.leavenedIcon');
         $icon.addClass('isBurned');
+
     } else if (leavenedInstance.isCooked === false) {
         let $button = $(e.target);
         let $leavened = $button.parents('.leavened');
