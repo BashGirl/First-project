@@ -1,0 +1,32 @@
+body {
+    padding: 0 50px;
+    background-color: #b5838d;
+}
+header > p {
+    font-size: 20px;
+    font-family: "Baskerville Old Face", SansSerif;
+}
+.leavened {
+    button {
+        margin: 20px;
+    }
+
+    .leavenedIcon {
+        color: beige;
+
+        &.isLeavened { // e commerciale indica che è come se fosse attaccato alla classe sopra, è una classe in più
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        &.isCooked {
+            color: brown;
+        }
+
+        &.isBurned {
+            color: black;
+        }
+    }
+}
+
+

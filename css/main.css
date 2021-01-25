@@ -1,0 +1,28 @@
+body {
+  padding: 0 50px;
+  background-color: #b5838d;
+}
+
+header > p {
+  font-size: 20px;
+  font-family: "Baskerville Old Face", SansSerif;
+}
+
+.leavened button {
+  margin: 20px;
+}
+.leavened .leavenedIcon {
+  color: beige;
+}
+.leavened .leavenedIcon.isLeavened {
+  font-size: 50px;
+  padding: 10px;
+}
+.leavened .leavenedIcon.isCooked {
+  color: brown;
+}
+.leavened .leavenedIcon.isBurned {
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
